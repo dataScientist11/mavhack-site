@@ -14,7 +14,7 @@
 
  header .header-content .header-content-inner h1 {
     font-size: 7em;
- 	text-shadow: 1px 1px 1px #ff7000;
+ 	text-shadow: 3px 3px 0px #ff7000;
  }
 
  header .header-content .header-content-inner p {
@@ -22,6 +22,14 @@
 	text-shadow: 1px 1px 1px #00447c;
 	font-size: 2em;
     font-weight: 500;
+ }
+
+ .header-content-inner {
+    height: 370px;
+    width: 600px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0% 0%;
+    padding: 90px 0px;
  }
 
  .navbar-brand {
