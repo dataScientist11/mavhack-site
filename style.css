@@ -2,6 +2,10 @@
  * MavHack 2015
  */
 
+ body {
+    font-size: 16px;
+ }
+
  .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
  	color: rgba(237, 79, 37, 0.7);
  }
@@ -76,6 +80,28 @@
 	position:absolute;
 	width:201px;
 	height: 105px; 
+ }
+
+ .separator {
+    background: url('img/header2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ }
+
+ .wide-text{
+    font-size: 46px;
+    color: #fff;
+    padding: 40px 0px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ #contact{
+    background-color:#F9F9F9; 
  }
 
 .mlh-badge {

@@ -45,7 +45,7 @@
     <!-- Jumbotron -->
     <header id="home" class="photo summer" data-stellar-background-ratio="0.5" style="overflow:hidden;">
         <div class="header-content">
-            <div class="header-content-inner">
+            <div class="header-content-inner animated flipInX">
                 <h1>MavHack 2015</h1>
                 <hr>
                 <p>October 2 &amp; 3 2015<br>
@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">MavHack is a Major League Hackathon sanctioned event</h2>
+                    <h2 class="section-heading">Frequently Asked Questions</h2>
                     <hr class="light">
                 </div>
 
@@ -83,7 +83,7 @@
                     </div>
                     <div class="faq-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <h3>Does MavHack allow volunteers to help run the event?</h3>
-                        <div class="text-faded">We love volunteers at MavHack. Please sign up <a href="https://MavHack.typeform.com/" target="_blank">here</a>, and we will be in contact with you. Our expectation is that volunteers stay for at least half the duration of the event.</div>
+                        <div class="text-faded">We love volunteers at MavHack. Please sign up <a href="#" target="_blank">here</a>, and we will be in contact with you. Our expectation is that volunteers stay for at least half the duration of the event.</div>
                     </div>
                     <div class="faq-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <h3>Is a project idea needed in order to attend MavHack?</h3>
@@ -111,7 +111,7 @@
                     </div>
                     <div class="faq-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <h3>Will there be buses to MavHack?</h3>
-                        <div class="text-faded">Yes! If you go to a Texas university or college and you think there should be a bus from your city, you should let us know <a href="https://MavHack.typeform.com/to/VcCrvH" target="_blank">here</a>. The sooner you let us know, the higher the chance of getting free transportation.</div>
+                        <div class="text-faded">Yes! If you go to a Texas university or college and you think there should be a bus from your city, you should let us know <a href="#" target="_blank">here</a>. The sooner you let us know, the higher the chance of getting free transportation.</div>
                     </div>
                     <div class="faq-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <h3>How does anyone find out more information, ask a question, or bring up a concern?</h3>
@@ -122,6 +122,67 @@
 
         </div>
             
+    </section>
+
+    <!-- Separator -->
+    <section class="separator" id="separator-one" data-stellar-background-ratio="0.5" style="overflow:hidden;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="wide-text" data-animation="flipInX" data-timeout="400">Meet, Drink, Eat and Hack</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors -->
+    <section id="sponsors" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <h2 class="section-heading text-center">Sponsors</h2>
+                <hr>
+                <div class="row">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                </div>
+
+                <div class="row" style="margin-top:20px;">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                <img class="col-md-3" src="https://placehold.it/300x150">
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Separator -->
+    <section class="separator" id="separator-two" data-stellar-background-ratio="0.5" style="overflow:hidden;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="wide-text">Challenge youself. See what a team of 2-5 people can do in 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <h2 class="text-center">Contact Us</h2>
+                <hr>
+                <p class="text-center">Interested in sponsoring? Contact <a href="mailto:info@mavhack.com">info@mavhack.com</a></p>
+                </div>
+            </div>
+        </div>  
     </section>
 
     <!-- Footer -->
@@ -173,6 +234,46 @@ if( !isMobile.any() ){
 });
     }
 });
+</script>
+<script type="text/javascript">
+    function revealOnScroll() {
+
+     var scrolled = $window.scrollTop();
+
+     $(".revealOnScroll:not(.animated)").each(function () {
+
+       var $this     = $(this),
+
+           offsetTop = $this.offset().top;
+
+ 
+
+       if (scrolled + win_height_padded > offsetTop) {
+
+         if ($this.data('timeout')) {
+
+           window.setTimeout(function(){
+
+             $this.addClass('animated ' + $this.data('animation'));
+
+           }, parseInt($this.data('timeout'),10));
+
+         } else {
+
+           $this.addClass('animated ' + $this.data('animation'));
+
+         }
+
+       }
+
+     });
+
+    var $window           = $(window),
+
+       win_height_padded = $window.height() * 1.1,
+
+       isTouch           = Modernizr.touch;
+    $window.on('scroll', revealOnScroll);
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
