@@ -41,6 +41,38 @@
  .navbar-brand {
  	font-size: 30px;
  }
+
+ .main-logo {
+    width:100%;
+    max-width:439px;
+ }
+
+ .lug-logo {
+    margin:0 auto;
+    float:none;
+    display:block;
+    margin-bottom:20px;
+    max-width:300px;
+ }
+
+ .subscribe {
+    width:100%;
+    max-width: 370px;
+    margin: 0px auto;
+ }
+
+ .subscribe input[type="email"] {
+    height:44px;
+    border:0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+ }
+
+ .subscribe input[type="submit"] {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width:auto;
+ }
  
  footer {
      padding: 20px 0px;
@@ -92,6 +124,10 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+ }
+
+ #sponsors{
+    background-color: #f7f7f7;
  }
 
  .wide-text{
