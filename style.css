@@ -2,8 +2,22 @@
  * MavHack 2015
  */
 
+ body {
+    font-size: 16px;
+ }
+
+ .navbar {
+    border:0px;
+ }
+
  .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
- 	color: rgba(237, 79, 37, 0.7);
+ 	color: #fff;
+ }
+
+ .navbar-center {
+    float: none;
+    margin: 0 auto;
+    display: table;
  }
 
  header {
@@ -14,7 +28,7 @@
 
  header .header-content .header-content-inner h1 {
     font-size: 7em;
- 	text-shadow: 1px 1px 1px #ff7000;
+ 	text-shadow: 3px 3px 0px #ff7000;
  }
 
  header .header-content .header-content-inner p {
@@ -26,6 +40,38 @@
 
  .navbar-brand {
  	font-size: 30px;
+ }
+
+ .main-logo {
+    width:100%;
+    max-width:439px;
+ }
+
+ .lug-logo {
+    margin:0 auto;
+    float:none;
+    display:block;
+    margin-bottom:20px;
+    max-width:300px;
+ }
+
+ .subscribe {
+    width:100%;
+    max-width: 370px;
+    margin: 0px auto;
+ }
+
+ .subscribe input[type="email"] {
+    height:44px;
+    border:0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+ }
+
+ .subscribe input[type="submit"] {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width:auto;
  }
  
  footer {
@@ -68,6 +114,32 @@
 	position:absolute;
 	width:201px;
 	height: 105px; 
+ }
+
+ .separator {
+    background: url('img/header2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ }
+
+ #sponsors{
+    background-color: #f7f7f7;
+ }
+
+ .wide-text{
+    font-size: 46px;
+    color: #fff;
+    padding: 40px 0px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ #contact{
+    background-color:#F9F9F9; 
  }
 
 .mlh-badge {
