@@ -45,6 +45,8 @@
  .main-logo {
     width:100%;
     max-width:439px;
+    margin: 0 auto;
+    display: block;
  }
 
  .lug-logo {
@@ -72,6 +74,20 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     width:auto;
+ }
+
+ #mc_embed_signup .radio ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 7px 0px 20px 0px;
+ }
+
+ #mc_embed_signup .radio ul li{
+    margin-bottom: 7px;
+ }
+
+ #mc_embed_signup .radio label {
+    width: 100%;
  }
  
  footer {
@@ -117,7 +133,7 @@
  }
 
  .separator {
-    background: url('img/header2.jpg');
+    background: url('img/header.jpg');
     background-attachment: fixed;
     background-position: center;
     -webkit-background-size: cover;
@@ -128,6 +144,12 @@
 
  #sponsors{
     background-color: #f7f7f7;
+ }
+
+ .sponsor {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 400px;
  }
 
  .wide-text{
@@ -141,6 +163,53 @@
  #contact{
     background-color:#F9F9F9; 
  }
+
+ #mc_embed_signup .form-control {
+    border-radius: 0px;
+    padding: 12px 16px;
+    height: 44px;
+    font-size: 18px;
+    background: transparent;
+    border:2px solid #CCC;
+ }
+
+ #mc_embed_signup form {
+    font-size: 16px;
+ }
+
+#mc_embed_signup input[type=radio].css-checkbox {
+                            position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+                        }
+
+                        #mc_embed_signup input[type=radio].css-checkbox + label.css-label {
+                            padding-left:23px;
+                            height:18px; 
+                            display:inline-block;
+                            line-height:18px;
+                            background-repeat:no-repeat;
+                            background-position: 0 0;
+                            font-size:18px;
+                            vertical-align:middle;
+                            cursor:pointer;
+
+                        }
+
+                        #mc_embed_signup input[type=radio].css-checkbox:checked + label.css-label {
+                            background-position: 0 -18px;
+                        }
+                        label.css-label {
+                background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_10a476a90541d3c36b8b7a362bcf82ce.png);
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+.css-label{
+    display: block;
+    min-height: 18px !important;
+}
 
 .mlh-badge {
 position:fixed;top:0;right:10px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000;
