@@ -41,6 +41,7 @@
 	text-shadow: 1px 1px 1px #00447c;
 	font-size: 2em;
     font-weight: 500;
+    margin-bottom: 30px;
  }
 
  .navbar-brand {
@@ -49,7 +50,7 @@
 
  .main-logo {
     width:100%;
-    max-width:439px;
+    max-width:700px;
     margin: 0 auto;
     display: block;
  }
@@ -138,13 +139,24 @@
  }
 
  .separator {
-    background: url('img/header.jpg');
     background-attachment: fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+ }
+
+ #separator-one {
+    background: url('img/coding.jpg');
+ }
+
+ #separator-two {
+    background: url('img/matrix.jpg');
+ }
+
+ #separator-reg {
+    background: url('img/header.jpg');
  }
 
  #thanks{
