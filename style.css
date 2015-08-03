@@ -152,11 +152,15 @@
  }
 
  #separator-two {
-    background: url('img/matrix.jpg');
+    background: url('img/drone.jpg');
  }
 
  #separator-reg {
     background: url('img/header.jpg');
+ }
+
+ .bigger-text {
+    font-size: 1.2em;
  }
 
  #thanks{
