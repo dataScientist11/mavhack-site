@@ -147,15 +147,15 @@
  }
 
  #separator-one {
-    background: url('img/coding-orange.jpg');
+    background-image: url('img/coding-orange.jpg');
  }
 
  #separator-two {
-    background: url('img/drone.jpg');
+    background-image: url('img/drone.jpg');
  }
 
  #separator-reg {
-    background: url('img/header.jpg');
+    background-image: url('img/header.jpg');
  }
 
  .bigger-text {
