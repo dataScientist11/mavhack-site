@@ -145,14 +145,19 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
+    overflow: hidden;
  }
 
  #separator-one {
-    background-image: url('img/coding-orange.jpg');
+    background-image: url('img/code3.jpg');
  }
 
  #separator-two {
-    background-image: url('img/drone.jpg');
+    background-image: url('img/drone3.jpg');
+ }
+
+ #separator-two p {
+    text-shadow:1px 1px 1px #000;
  }
 
  #separator-reg {
