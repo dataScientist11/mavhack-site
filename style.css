@@ -28,20 +28,32 @@
  header {
  	background-position: top center;
  	color: #ffffff;
- 	margin-top: -20px;
+    background: none; 
+    background-color: rgba(0, 0, 0, 0.94);
+
  }
 
  header .header-content .header-content-inner h1 {
     font-size: 7em;
- 	text-shadow: 3px 3px 0px #ff7000;
  }
 
  header .header-content .header-content-inner p {
  	color: #ffffff;
-	text-shadow: 1px 1px 1px #00447c;
 	font-size: 2em;
     font-weight: 500;
     margin-bottom: 30px;
+ }
+
+ .divider {
+    background: url('img/divider.png') no-repeat;
+    background-size: 60%; 
+    background-position: center;
+    width: 100%;
+    max-width: 750px;
+    height: 33px;
+    clear: both;
+    margin: auto;
+    margin-bottom: 10px;
  }
 
  .navbar-brand {
@@ -50,7 +62,7 @@
 
  .main-logo {
     width:100%;
-    max-width:700px;
+    max-width:500px;
     margin: 0 auto;
     display: block;
  }
@@ -149,7 +161,7 @@
  }
 
  #separator-one {
-    background-image: url('img/code3.jpg');
+    background-image: url('img/header3.jpg');
  }
 
  #separator-two {
@@ -169,7 +181,13 @@
  }
 
  #thanks{
-    background-color: #f7f7f7;
+    background-color: #000;
+    color: #fff !important;
+ }
+
+ #organizer {
+    background-color: #000;
+    color: #fff !important;
  }
 
  .sponsor {
@@ -185,6 +203,14 @@
     padding: 40px 0px;
     text-align: center;
     font-weight: bold;
+ }
+
+ .text-big {
+    font-size: 20px;
+ }
+
+ .text-extra-big {
+    font-size: 28px;
  }
 
  #contact{
